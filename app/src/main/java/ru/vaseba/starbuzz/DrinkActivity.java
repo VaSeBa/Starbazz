@@ -101,7 +101,7 @@ public class DrinkActivity extends Activity {
                 return false;
             }
         }
-        
+
         protected void onPostExecute(Boolean success) {
             if (!success) {
                 Toast toast = Toast.makeText(DrinkActivity.this,
